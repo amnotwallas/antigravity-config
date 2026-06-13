@@ -141,4 +141,6 @@ Inside Antigravity CLI, run:
 ---
 
 > [!NOTE]
-> The Antigravity CLI payload does not expose Git branch or repository status. `statusline.sh` reads those values directly from Git to keep branch and dirty-state indicators accurate.
+> The `vcs` object in the Antigravity CLI payload may not expose `branch` or `dirty`
+> state depending on your installation. `statusline.sh` reads those values directly
+> from Git as a fallback to keep branch and dirty-state indicators accurate.
