@@ -29,7 +29,7 @@ Example output:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/antigravity-statusline.git
+https://github.com/amnotwallas/antigravity-config.git
 ```
 
 Make the script executable:
