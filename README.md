@@ -1,6 +1,6 @@
 # Antigravity Statusline
 
-A lightweight statusline and title bar for [Antigravity CLI](https://github.com/amnotwallas/antigravity-config), written in Bash.
+A lightweight statusline and title bar for [Antigravity CLI](https://antigravity.google/product/antigravity-cli), written in Bash.
 
 Displays live session context directly in the prompt footer and terminal title — no external services, no dependencies beyond what you already have.
 
@@ -42,7 +42,7 @@ antigravity-config | ⎇ main | idle
 
 ## Requirements
 
-- [Antigravity CLI](https://github.com/amnotwallas/antigravity-config)
+- [Antigravity CLI](https://antigravity.google/product/antigravity-cli)
 - Bash
 - [`jq`](https://stedman.us/jq/)
 - Git
