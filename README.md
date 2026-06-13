@@ -13,7 +13,7 @@ Displays live session context directly in the prompt footer and terminal title �
 **Title** (`title.sh`) — shown in the terminal title bar:
 
 ```text
-antigravity-config | main | idle
+antigravity-config | ⎇ main | idle
 ```
 
 ---
