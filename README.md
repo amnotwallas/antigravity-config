@@ -66,6 +66,9 @@ cp statusline.sh title.sh ~/.gemini/antigravity-cli/
 
 **3. Make scripts executable**
 
+> [!IMPORTANT]
+> This step is required. Without it, Antigravity CLI will silently fail to render the statusline or title.
+
 ```bash
 chmod +x ~/.gemini/antigravity-cli/statusline.sh
 chmod +x ~/.gemini/antigravity-cli/title.sh
@@ -137,6 +140,5 @@ Inside Antigravity CLI, run:
 
 ---
 
-## Notes
-
-The Antigravity CLI payload does not expose Git branch or repository status. `statusline.sh` reads those values directly from Git to keep branch and dirty-state indicators accurate.
+> [!NOTE]
+> The Antigravity CLI payload does not expose Git branch or repository status. `statusline.sh` reads those values directly from Git to keep branch and dirty-state indicators accurate.
