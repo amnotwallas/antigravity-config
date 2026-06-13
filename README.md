@@ -35,7 +35,7 @@ antigravity-config | ⎇ main | idle
 | Field | Description |
 |---|---|
 | `antigravity-config` | Project name (basename of current working directory) |
-| `main` | Current Git branch |
+| `⎇ main` | Current Git branch |
 | `idle` | Current agent state |
 
 ---
